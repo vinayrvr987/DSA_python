@@ -8,7 +8,7 @@ def shortestPath(graph, src, dst):
     while queue:
         size = len(queue)
         length += 1
-        for i in range(size):
+        for _ in range(size):
             node = queue.popleft()
             if node == dst:
                 return length
