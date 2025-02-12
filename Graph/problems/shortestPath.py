@@ -18,7 +18,6 @@ def shortestPath(graph, src, dst):
                     queue.append(neighbor)
     return -1
 
-
 if __name__ == '__main__':
     # Testcase 1
     graph = {
